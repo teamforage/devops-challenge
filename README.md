@@ -109,11 +109,9 @@ The users service works with a `MongoDB` to store its users.
 * Although this "users service" is very small and focused, we should be prepared for multi-environments (dev, staging, production, etc...) with full pipeline (including testing, linting, and more...) in the future. Make sure your solution is opened for such future changes.
 
 * Use whichever CI/CD tool you want.
-# TODO convert to AWS
-* Use `GCR` (Google Container Registry) as the docker registry and `GKE` (Google Kubernetes Engine) as the docker platform.
+* Use `ECR` (AWS Elastic Container Registry) as the docker registry and `ECS` (AWS Elastic Container Service) as the docker platform.
 * Work on local github repository.
 * Make sure the solution is *__private__*, not public. Only available for you and us.
-# TODO convert to AWS
 * Consider using managed services. For mongo you may use `Atlas` - https://www.mongodb.com/cloud/atlas.
 * For the sake of the exercise, `/health` endpoint randomly returns that the health is false.
 * For simplicity, the service logs all the requests to the console.
