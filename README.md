@@ -1,10 +1,8 @@
-![ClimaCell](https://climacell.ussl.co/wp-content/uploads/2019/03/CC-logo-base-black-w_blue-icon-300.png "ClimaCell")
-
 # Taking a Service to Production
 
-This devops challenge's goal is simple - build a full integration, deployment and monitoring pipeline for a service. It will allow you understand the challenges we face in ClimaCell everyday, and to demonstrate your skills.
+This devops challenge's goal is simple - build a full integration, deployment and monitoring pipeline for a service. It will allow you understand the challenges we face in Forage everyday, and to demonstrate your skills.
 
-We look at the pipline as consisting of three stages:
+We look at the pipeline as consisting of three stages:
 
 1. **Continuous Integration** - Any change in the repository that is pushed is automatically built as a docker container and published to a docker registry.
 2. **Continuous Deployment** - Latest docker image deployed to a container platform and available to use.
@@ -111,9 +109,11 @@ The users service works with a `MongoDB` to store its users.
 * Although this "users service" is very small and focused, we should be prepared for multi-environments (dev, staging, production, etc...) with full pipeline (including testing, linting, and more...) in the future. Make sure your solution is opened for such future changes.
 
 * Use whichever CI/CD tool you want.
+# TODO convert to AWS
 * Use `GCR` (Google Container Registry) as the docker registry and `GKE` (Google Kubernetes Engine) as the docker platform.
 * Work on local github repository.
 * Make sure the solution is *__private__*, not public. Only available for you and us.
+# TODO convert to AWS
 * Consider using managed services. For mongo you may use `Atlas` - https://www.mongodb.com/cloud/atlas.
 * For the sake of the exercise, `/health` endpoint randomly returns that the health is false.
 * For simplicity, the service logs all the requests to the console.
@@ -122,5 +122,5 @@ Don't hesitate to contact us with any question.
 
 **Good Luck!**
 
-**The ClimaCell Team**
+**Team Forage**
 
